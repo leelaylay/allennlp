@@ -4,3 +4,5 @@ from allennlp.data.dataset_readers.semantic_parsing.nlvr import NlvrDatasetReade
 from allennlp.data.dataset_readers.semantic_parsing.wikitables.wikitables import WikiTablesDatasetReader
 from allennlp.data.dataset_readers.semantic_parsing.template_text2sql import TemplateText2SqlDatasetReader
 from allennlp.data.dataset_readers.semantic_parsing.grammar_based_text2sql import GrammarBasedText2SqlDatasetReader
+
+from allennlp.data.dataset_readers.semantic_parsing.mspars_dataset_reader import MSParSDatasetReader

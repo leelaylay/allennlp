@@ -67,7 +67,7 @@
     "patience": 5,
     "cuda_device": 0,
     "grad_norm": 5.0,
-    "validation_metric": "+denotation_acc",
+    "validation_metric": ["+denotation_acc", "+bleu"],
     "optimizer": {
       "type": "sgd",
       "lr": 0.1
